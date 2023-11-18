@@ -1,4 +1,5 @@
 package com.exam.app;
 
-public class Writer {
+public interface Writer {
+    public void writeData();
 }

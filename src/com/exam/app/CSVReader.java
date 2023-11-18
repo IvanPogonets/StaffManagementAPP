@@ -1,4 +1,8 @@
 package com.exam.app;
 
-public class CSVReader {
+public class CSVReader implements Reader {
+    @Override
+    public void readData() {
+
+    }
 }
