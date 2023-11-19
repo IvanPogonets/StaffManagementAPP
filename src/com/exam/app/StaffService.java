@@ -11,15 +11,12 @@ private HashMap<Integer, Employee> employees;
     public StaffService(Reader reader, Writer writer) {
         this.reader = reader;
         this.writer = writer;
-//        this.employees = reader.readData();
+        this.employees = new HashMap<Integer, Employee>();
+        employees = reader.readData();
     }
 
     public HashMap<Integer, Employee> getEmployees() {
         return employees;
-    }
-
-    public void setEmployees(HashMap<Integer, Employee> employees) {
-        this.employees = employees;
     }
 
     @Override

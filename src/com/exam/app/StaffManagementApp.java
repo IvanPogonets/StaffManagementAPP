@@ -17,6 +17,8 @@ public class StaffManagementApp {
             Scanner scanner = new Scanner(System.in);
             String command = scanner.nextLine();
             manager.execute(command);
+
+
         }
     }
 }
